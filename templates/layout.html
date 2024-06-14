@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%if title%}
+    <title>{{title}}</title>
+    {%else%}
+    <title>Document</title>
+    {%endif%}
+</head>
+<body>
+    <ul>
+        <li><a href="/app">App Development</a></li>
+        <li><a href="/web">Web Development</a></li>
+        <li><a href="/design">Design & Motion Graphics</a></li>
+    </ul>
+    <h1>{{title}}</h1>
+
+    {% block content %} {% endblock %}
+</body>
+</html>
