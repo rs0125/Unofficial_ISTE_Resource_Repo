@@ -13,15 +13,15 @@ def home():
 
 @app.route("/design")
 def design():
-    return render_template("design.html", title="Design & Motion Graphics", resources=design_res)
+    return render_template("display.html", title="Design & Motion Graphics", resources=design_res)
 
 @app.route("/web")
 def webdev():
-    return render_template("web.html", title="Web Development", resources=web_res)
+    return render_template("display.html", title="Web Development", resources=web_res)
 
 @app.route("/app")
 def appdev():
-    return render_template("app.html", title="App Development", resources=app_res)
+    return render_template("display.html", title="App Development", resources=app_res)
 
 if __name__ == '__main__':
     app.run(debug=True)

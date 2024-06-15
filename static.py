@@ -13,4 +13,7 @@ design_res = [{"title": "Design Fundamentals", "type" : "video", "url": "https:/
 
 web_res = [{"title": "Lorem Ipsum", "type" : "video", "url": "vnjdvjkdnbv"},{"title": "Lorem Ipsum", "type" : "article", "url": "vnjdvjkdnbv"}]
 
-app_res = [{"title": "Lorem Ipsum", "type" : "video", "url": "vnjdvjkdnbv"},{"title": "Lorem Ipsum", "type" : "inspo", "url": "vnjdvjkdnbv"}]
+app_res = [{"title": "Kotlin Basics", "type" : "video", "url": "https://www.youtube.com/embed/AeC4G-H-MQA?si=KrdoJ66WBf9g3q1M"},
+           {"title": "Android Developers Official", "type" : "article", "url": "https://developer.android.com/get-started/overview"},
+        {"title": "Android Developers Official", "type" : "article", "url": "https://developer.android.com/get-started/overview"},
+           {"title": "Beautiful Repository Consisting of Jetpack Compose Examples", "type" : "inspo", "url": "https://github.com/android/compose-samples/tree/main"}]
