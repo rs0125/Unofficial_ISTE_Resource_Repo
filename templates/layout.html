@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,16 +11,22 @@
     <title>Document</title>
     {%endif%}
 </head>
+
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">        <a href="/app" class="navbar-item">App Development</a>
-        <a href="/web" class="navbar-item">Web Development</a>
-        <a href="/design" class="navbar-item">Design & Motion Graphics</a></div>
+    <div class="block" margin="200p">
+        <div class="tabs">
+            <ul style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                <li><a href="/app" class="navbar-item">App Development</a></li>
+                <li><a href="/web" class="navbar-item">Web Development</a></li>
+                <li><a href="/design" class="navbar-item">Design & Motion Graphics</a></li>
+            </ul>
+        </div>
+        <div class="block" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+                    <h1 class="title is-1">{{title}}</h1>
+        </div>
 
-</nav>
-
-    <h1 class="title is-1">{{title}}</h1>
-
+    </div>
     {% block content %} {% endblock %}
 </body>
+
 </html>
