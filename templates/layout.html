@@ -11,6 +11,12 @@
     <title>Document</title>
     {%endif%}
 </head>
+<style>
+    .bottom-three {
+       margin-bottom: 1cm;
+    }
+  </style>
+
 
 <body>
     <div class="block" margin="200p">
@@ -18,15 +24,33 @@
             <ul style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
                 <li><a href="/app" class="navbar-item">App Development</a></li>
                 <li><a href="/web" class="navbar-item">Web Development</a></li>
-                <li><a href="/design" class="navbar-item">Design & Motion Graphics</a></li>
+                <li><a href="/aiml" class="navbar-item is-disabled">AI/ML</a></li>
+                <li><a href="/design" class="navbar-item">Design</a></li>
+                <li><a href="/motiongraphics" class="navbar-item">Motion Graphics</a></li>
             </ul>
         </div>
+
         <div class="block" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-                    <h1 class="title is-1">{{title}}</h1>
+                    <h1 class="title is-1" style="margin: 0.5cm;">{{title}}</h1>
         </div>
 
     </div>
+    
     {% block content %} {% endblock %}
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+            The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+            website content is licensed
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >CC BY NC SA 4.0</a
+            >.
+          </p>
+        </div>
+      </footer>
 </body>
 
 </html>
