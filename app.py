@@ -9,11 +9,11 @@ app = Flask(__name__)
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template("index.html", title="The Unofficial ISTE Resource Repository")
+    return render_template("index.html")
 
 @app.route("/design")
 def design():
-    return render_template("display.html", title="Design", resources=design_res)
+    return render_template("display.html", title="Visual Design", resources=design_res)
 
 @app.route("/web")
 def webdev():
@@ -26,7 +26,7 @@ def appdev():
 
 @app.route("/aiml")
 def aiml():
-    return render_template("wip.html", title="AI/ML")
+    return render_template("wip.html", title="Machine Learning")
 
 @app.route("/motiongraphics")
 def motion():
