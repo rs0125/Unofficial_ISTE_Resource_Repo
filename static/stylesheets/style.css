@@ -38,19 +38,22 @@ h2{
     font-size: 250%;
     width: 100%;
     color: black;
-    padding: 1% 1%;
-    margin: 1%;
+    padding: 1% 0%;
+    margin: 1% 0%;
     border: solid black 1px;
-    border-radius: 24px;
     
 }
+
+.buttonkumar:hover {filter: drop-shadow(2px 2px 0px black) !important}
+
+
 
 .titlekumar{
     background-color: #B5DDC2;
     font-size: 250%;
     width: 100%;
     color: black;
-    padding: 1% 1%;
+    padding: 1% 0%;
     margin: 0%;
     border: solid black 1px;
 
@@ -63,6 +66,11 @@ h2{
 
 li a:link, a:visited{
     text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    text-decoration: underline;
     color: black;
 }
 
@@ -89,6 +97,8 @@ footer{
     border: solid black 1px;
 }
 
+
+
 .clear { clear: both; height: 30px; margin: 0%;}
 
 .smolclear { clear: both; height: 15px; margin: 0%;}
@@ -96,5 +106,28 @@ footer{
 footer a:link, a:visited {
     text-decoration: none;
     color: black;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+#appdev {
+    background-color: #B5DDC2;
+}
+
+#aiml {
+    background-color: #FAC898;
+}
+
+#design {
+    background-color: #C3B1E1;
+}
+#motiongraphics {
+    background-color: #FAA0A0;
+}
+
+#webdev {
+    background-color: #A7C7E7;
 }
 
